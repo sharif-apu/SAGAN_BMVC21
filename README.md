@@ -18,13 +18,15 @@ Reconstruction". The paper has been accepted and to be published in the proceedi
 # Overview
 Despite the substantial advantages, such non-Bayer CFA patterns are susceptible to produce visual artefacts while reconstructing RGB images from noisy sensor data. SAGAN addresses the challenges of learning RGB image reconstruction from noisy Nona-Bayer CFA comprehensively.
 
+
+
 <p align="center">
-<img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/140974748-5b50012c-4f84-480b-819e-7a9914192490.png" alt="Overview"> </br>
+<img width=400 align="center" src = "https://user-images.githubusercontent.com/15001857/140978518-dc871bdd-9d71-4d51-afbb-93b24d64b0b1.png" alt="Overview"> </br>
 </p>
 
 
 <p align="center">
-<img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/140974945-d0bcfa26-8633-4eb6-b2fb-42f92bb79677.png" alt="Overview"> </br>
+<img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/140978589-7b09d299-3ebf-48de-8bd4-a662202bcda9.png" alt="Overview"> </br>
 </p>
 
 **Figure:**  Overview of the proposed method, including network architecture and novel Spatial-asymmetric Module.
@@ -69,7 +71,7 @@ pip install -r requirement.txt
 
 **To inference with custom setting execute the following command:**</br>
 ```python main.py -i -s path/to/inputImages -d path/to/outputImages -ns=sigma(s)``` </br>
-Here,**-ns** specifies the standard deviation of a Gaussian distribution (i.e., -ns=5, 10, 15),**-s** specifies the root directory of the source images
+Here,**-ns** specifies the standard deviation of a Gaussian distribution (i.e., -ns=10, 20, 30),**-s** specifies the root directory of the source images
  (i.e., testingImages/), and **-d** specifies the destination root (i.e., modelOutput/).
 
 
@@ -84,7 +86,7 @@ To sample images for pair training please execute the following command:
 </br> After extracting samples, please execute the following commands to start training:
 
 ```python main.py -ts -e X -b Y```
-To specify your trining images path, go to mainModule/config.json and update "gtPath" and "targetPath" entity. </br>You can specify the number of epoch with **-e** flag (i.e., -e 5) and number of images per batch with **-b** flag (i.e., -b 12).</br>
+To specify your trining images path, go to mainModule/config.json and update "gtPath" and "targetPath" entity. </br>You can specify the number of epoch with **-e** flag (i.e., -e 5) and number of images per batch with **-b** flag (i.e., -b 16).</br>
 
 
 **For transfer learning execute:**</br>
@@ -92,8 +94,7 @@ To specify your trining images path, go to mainModule/config.json and update "gt
 
 
 # Traaning with Real-world Noisy Images
-To train our model with real-world noisy images, please download "Smartphone Image Denoising Dataset" and comment out line 29 of dataTools/customDataloader.py file. Rest of the training procedure should be reamain same as learning from synthesised images.
-
+To train our model with real-world noisy images, please download "Smartphone Image Denoising Dataset" and comment out line-29 of dataTools/customDataloader.py. The rest of the training procedure should remain the same as learning from synthesized images.
 
 follow the training/data extraction procedure similar to the synthesized images. 
 
