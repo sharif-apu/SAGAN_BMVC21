@@ -21,32 +21,32 @@ Despite the substantial advantages, such non-Bayer CFA patterns are susceptible 
 
 
 <p align="center">
-<img width=400 align="center" src = "https://user-images.githubusercontent.com/15001857/140978518-dc871bdd-9d71-4d51-afbb-93b24d64b0b1.png" alt="Overview"> </br>
+<img width=400 align="center" src = "https://user-images.githubusercontent.com/15001857/140978518-dc871bdd-9d71-4d51-afbb-93b24d64b0b1.png" alt="CFA"> </br>
 </p>
+
 
 
 <p align="center">
-<img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/140978589-7b09d299-3ebf-48de-8bd4-a662202bcda9.png" alt="Overview"> </br>
+<img width=1000 align="center" src = "https://user-images.githubusercontent.com/15001857/140979382-c725083b-3488-481f-8ccd-318f276ef749.png" alt="Overview"> </br>
 </p>
 
-**Figure:**  Overview of the proposed method, including network architecture and novel Spatial-asymmetric Module.
 
 
 # Nona-Bayer Reconstruction with Real-world Denoising </br>
 
 <p align="center">
-<img width=800 align="center"  src="https://user-images.githubusercontent.com/15001857/140975651-1a7936e5-1537-43a0-8d24-366289de6f17.png" alt="Overview"> </br>
+<img width=800 align="center"  src="https://user-images.githubusercontent.com/15001857/140975651-1a7936e5-1537-43a0-8d24-366289de6f17.png" alt="Real Reconstruction"> </br>
 </p>
 
-**Figure:** Quantitative comparison between proposed method and existing JDD methods for Quad-Bayer reconstruction.
+
 
 # Comparison with state-of-the-art deep JDD methods </br>
 
 <p align="center">
-<img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/140975214-9c555403-44dc-4498-9831-fb49feeb43aa.png" alt="Overview"> </br>
+<img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/140975214-9c555403-44dc-4498-9831-fb49feeb43aa.png" alt="comp"> </br>
 </p>
 
-**Figure:** Quantitative comparison between proposed method and existing JDD methods for Quad-Bayer reconstruction.
+
 
 
 
