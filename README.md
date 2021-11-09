@@ -19,26 +19,34 @@ Reconstruction". The paper has been accepted and to be published in the proceedi
 Despite the substantial advantages, such non-Bayer CFA patterns are susceptible to produce visual artefacts while reconstructing RGB images from noisy sensor data. SAGAN addresses the challenges of learning RGB image reconstruction from noisy Nona-Bayer CFA comprehensively.
 
 <p align="center">
-<img width=800 align="center" src = "https://github.com/sharif-apu/BJDD_CVPR21/blob/main/Extras/CFA.png" alt="Overview"> </br>
+<img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/140974748-5b50012c-4f84-480b-819e-7a9914192490.png" alt="Overview"> </br>
 </p>
 
-
-**Figure:**  Commonly used CFA patterns of pixel-bin image 086 sensors. Left : Quad-Bayer CFA. Right: Bayer-CFA.
 
 <p align="center">
-<img width=800 align="center" src = "https://github.com/sharif-apu/BJDD_CVPR21/blob/main/Extras/overview.png" alt="Overview"> </br>
+<img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/140974945-d0bcfa26-8633-4eb6-b2fb-42f92bb79677.png" alt="Overview"> </br>
 </p>
 
-**Figure:**  Overview of the proposed method, including network architecture and submodules.
+**Figure:**  Overview of the proposed method, including network architecture and novel Spatial-asymmetric Module.
 
+
+# Nona-Bayer Reconstruction with Real-world Denoising </br>
+
+<p align="center">
+<img width=800 align="center"  src="https://user-images.githubusercontent.com/15001857/140975651-1a7936e5-1537-43a0-8d24-366289de6f17.png" alt="Overview"> </br>
+</p>
+
+**Figure:** Quantitative comparison between proposed method and existing JDD methods for Quad-Bayer reconstruction.
 
 # Comparison with state-of-the-art deep JDD methods </br>
 
 <p align="center">
-<img width=800 align="center" src = "https://github.com/sharif-apu/BJDD_CVPR21/blob/main/Extras/comp.png" alt="Overview"> </br>
+<img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/140975214-9c555403-44dc-4498-9831-fb49feeb43aa.png" alt="Overview"> </br>
 </p>
 
 **Figure:** Quantitative comparison between proposed method and existing JDD methods for Quad-Bayer reconstruction.
+
+
 
 # Prerequisites
 ```
