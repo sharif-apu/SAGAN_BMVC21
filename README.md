@@ -1,7 +1,7 @@
 # SAGAN: Adversarial Spatial-asymmetric Attention 
 This is the official implementation of paper title "SAGAN: Adversarial Spatial-asymmetric
 Attention for Noisy Nona-Bayer
-Reconstruction". The paper has been accepted and to be published in the proceedings of BMVC21. To download full paper **[[Click Here](https://arxiv.org/abs/2110.08619)]**.
+Reconstruction". The paper has been accepted and to be published in the proceedings of BMVC21. To download full paper **[[Click Here](https://arxiv.org/abs/2110.08619)]**. To download our BMVC presentation **[[Click Here](https://docs.google.com/presentation/d/1IIzhOVnqTVRhc2v6H2sptlu-UrSm58hxsGKPq3GsAzc/edit?usp=sharing)]**
 
 
 **Please consider to cite this paper as follows:**
@@ -59,17 +59,13 @@ Virtual environment (optional)
 # Installation
 **Please consider using a virtual environment to continue the installation process.**
 ```
-git clone https://github.com/sharif-apu/BJDD_CVPR21.git
-cd BJDD_CVPR21
+git clone https://github.com/sharif-apu/SAGAN_BMVC21.git
+cd SAGAN_BMVC21
 pip install -r requirement.txt
 ```
 
-# Testing
-** [[Click Here](https://drive.google.com/drive/folders/1_ziIMjK9vGg-P_7Wxit96bnfHiO4_wQw?usp=sharinge)]** to download pretrained weights and save it to weights/ directory for inferencing with Quad-bayer CFA</br>
-```python main.py -i``` </br>
+# Testing with Synthesised Images
 
-A few testing images are provided in a sub-directory under testingImages (i.e., testingImages/sampleImages/)</br>
-In such occasion, reconstructed image(s) will be available in modelOutput/sampleImages/. </br>
 
 **To inference with custom setting execute the following command:**</br>
 ```python main.py -i -s path/to/inputImages -d path/to/outputImages -ns=sigma(s)``` </br>
@@ -81,8 +77,8 @@ Here,**-ns** specifies the standard deviation of a Gaussian distribution (i.e., 
 To start training we need to sampling the images according to the CFA pattern and have to pair with coresponding ground-truth images.
 To sample images for pair training please execute the following command:
 
-```python main.py -ds -s /path/to/GTimages/ -d /path/to/saveSamples/ -g 2 -n 10000 ```
-</br> Here **-s** flag defines your root directory of GT images, **-d** flag defines the directory where sampled images should be saved, and **-g** flag defines the binnig factr (i.e., 1 for bayer CFA, 2 for Quad-bayer), **-n** defines the number of images have to sample (optional)</br>
+```python main.py -ds -s /path/to/GTimages/ -d /path/to/saveSamples/ -g 3 -n 10000 ```
+</br> Here **-s** flag defines your root directory of GT images, **-d** flag defines the directory where sampled images should be saved, and **-g** flag defines the binnig factr (i.e., 1 for bayer CFA, 2 for Quad-Bayer, 3 for Nona-Bayer), **-n** defines the number of images have to sample (optional)</br>
 
 
 </br> After extracting samples, please execute the following commands to start training:
@@ -95,9 +91,18 @@ To specify your trining images path, go to mainModule/config.json and update "gt
 ```python main.py -tr -e -b ```
 
 
-# Bayer Testing
-We also trained our model with Bayer CFA. To download pretrained Bayer weights **[[Click Here](https://drive.google.com/drive/folders/125hFTHR5qpJy4AKhtjxFhZJ5aPxQI4TE?usp=sharing)]**. In such occasion, please update binning factor entity in mainModule/config.json file.
+# Traaning with Real-world Noisy Images
+To train our model with real-world noisy images, please download "Smartphone Image Denoising Dataset" and comment out line 29 of dataTools/customDataloader.py file. Rest of the training procedure should be reamain same as learning from synthesised images.
 
+
+follow the training/data extraction procedure similar to the synthesized images. 
+
+** To inference with real-world Noisy images execute the following command:**</br>
+```python main.py -i -s path/to/inputImages -d path/to/outputImages -ns=0``` </br>
+Here,**-s** specifies the root directory of the source images
+ (i.e., testingImages/), and **-d** specifies the destination root (i.e., modelOutput/).
+
+A few real-world noisy images can be downloaded from the following link **[[Click Here](https:)]**
 
 # Others
 **Check model configuration:**</br>
