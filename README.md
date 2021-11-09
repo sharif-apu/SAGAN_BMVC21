@@ -35,7 +35,7 @@ Despite the substantial advantages, such non-Bayer CFA patterns are susceptible 
 # Nona-Bayer Reconstruction with Real-world Denoising </br>
 
 <p align="center">
-<img width=800 align="center"  src="https://user-images.githubusercontent.com/15001857/140975651-1a7936e5-1537-43a0-8d24-366289de6f17.png" alt="Real Reconstruction"> </br>
+<img width=1000 align="center"  src="https://user-images.githubusercontent.com/15001857/140975651-1a7936e5-1537-43a0-8d24-366289de6f17.png" alt="Real Reconstruction"> </br>
 </p>
 
 
@@ -43,7 +43,7 @@ Despite the substantial advantages, such non-Bayer CFA patterns are susceptible 
 # Comparison with state-of-the-art deep JDD methods </br>
 
 <p align="center">
-<img width=800 align="center" src = "https://user-images.githubusercontent.com/15001857/140975214-9c555403-44dc-4498-9831-fb49feeb43aa.png" alt="comp"> </br>
+<img width=1000 align="center" src = "https://user-images.githubusercontent.com/15001857/140975214-9c555403-44dc-4498-9831-fb49feeb43aa.png" alt="comp"> </br>
 </p>
 
 
