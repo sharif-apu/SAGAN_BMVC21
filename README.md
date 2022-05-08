@@ -2,7 +2,8 @@
 This is the official implementation of paper title "SAGAN: Adversarial Spatial-asymmetric
 Attention for Noisy Nona-Bayer
 Reconstruction". The paper has been accepted and to be published in the proceedings of BMVC21. 
-Download links **[[Full Paper](https://www.bmvc2021-virtualconference.com/assets/papers/1020.pdf)] | [[arxiv](https://arxiv.org/abs/2110.08619)] | [[Supplemental](https://www.bmvc2021-virtualconference.com/assets/supp/1014_supp.zip)] | [[presentation](https://docs.google.com/presentation/d/1IIzhOVnqTVRhc2v6H2sptlu-UrSm58hxsGKPq3GsAzc/edit?usp=sharing)]**
+
+**Download links : [[Full Paper](https://www.bmvc2021-virtualconference.com/assets/papers/1020.pdf)] | [[arxiv](https://arxiv.org/abs/2110.08619)] | [[Supplemental](https://www.bmvc2021-virtualconference.com/assets/supp/1014_supp.zip)] | [[presentation](https://docs.google.com/presentation/d/1IIzhOVnqTVRhc2v6H2sptlu-UrSm58hxsGKPq3GsAzc/edit?usp=sharing)]**
 
 
 **Please consider to cite this paper as follows:**
