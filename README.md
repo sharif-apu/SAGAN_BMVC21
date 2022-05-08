@@ -1,7 +1,7 @@
 # SAGAN: Adversarial Spatial-asymmetric Attention 
 This is the official implementation of paper title "SAGAN: Adversarial Spatial-asymmetric
 Attention for Noisy Nona-Bayer
-Reconstruction". The paper has been accepted and to be published in the proceedings of BMVC21. To download full paper **[[Click Here](https://arxiv.org/abs/2110.08619)]**. To download our BMVC presentation **[[Click Here](https://docs.google.com/presentation/d/1IIzhOVnqTVRhc2v6H2sptlu-UrSm58hxsGKPq3GsAzc/edit?usp=sharing)]**
+Reconstruction". The paper has been accepted and to be published in the proceedings of BMVC21. To download full paper **[[Click Here](https://www.bmvc2021-virtualconference.com/assets/papers/1020.pdf)]**. To download our BMVC presentation **[[Click Here](https://docs.google.com/presentation/d/1IIzhOVnqTVRhc2v6H2sptlu-UrSm58hxsGKPq3GsAzc/edit?usp=sharing)]**
 
 
 **Please consider to cite this paper as follows:**
@@ -9,7 +9,7 @@ Reconstruction". The paper has been accepted and to be published in the proceedi
 @inproceedings{a2021beyond,
   title={SAGAN: Adversarial Spatial-asymmetric Attention for Noisy Nona-Bayer Reconstruction},
   author={Sharif, SMA and Naqvi, Rizwan Ali and Biswas, Mithun},
-  booktitle={Proceedings of the BMVC21},
+  booktitle={Proceedings of the British Machine Vision Conference (BMVC)},
   pages={},
   year={2021}
 }
