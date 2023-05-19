@@ -118,4 +118,4 @@ A few real-world noisy images can be downloaded from the following link **[[Clic
 ```python main.py -to ```</br>
 
 # Contact
-For any further query, feel free to contact us through the following emails: sma.sharif.cse@ulab.edu.bd, rizwanali@sejong.ac.kr, or mithun.bishwash.cse@ulab.edu.bd
+For any further query, feel free to contact us through the following emails: apuism@gmail.com, rizwanali@sejong.ac.kr, or mithun.bishwash.cse@ulab.edu.bd
