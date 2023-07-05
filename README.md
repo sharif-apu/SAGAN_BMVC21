@@ -1,4 +1,5 @@
 # SAGAN: Adversarial Spatial-asymmetric Attention 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sagan-adversarial-spatial-asymmetric/joint-demosaicing-and-denoising-on-srgb)](https://paperswithcode.com/sota/joint-demosaicing-and-denoising-on-srgb?p=sagan-adversarial-spatial-asymmetric)
 This is the official implementation of paper title "SAGAN: Adversarial Spatial-asymmetric
 Attention for Noisy Nona-Bayer
 Reconstruction". The paper has been accepted and to be published in the proceedings of BMVC21. 
